@@ -1,3 +1,5 @@
+/*Author: All*/
+
 body {
   background-image: url("background.jpg");
   background-size: cover;
@@ -177,8 +179,64 @@ footer {
   margin-bottom: 5px;
 }
 
+.searchForm {
+  background-color: #fafad2;
+  color: black;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 20px solid #9c1e21;
+  align-items: center;
+}
+
+#fmSearch {
+  background-color: #fafad2;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#fmSearch input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#fmSearch select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#fmSearch input[type=number] {
+  width: 30%;
+}
+
+#fmSearch input[type=submit] {
+  text-align: center;
+  background-color: #9c1e21;
+  color: lightgoldenrodyellow;
+  width: 100%;
+}
+
+#fmSearch input[type=submit]:hover {
+  background-color: #6e1618
+}
+
 .idk{
-  color:black
+  color:black;
 }
 
 /*Table for Search*/
@@ -204,4 +262,93 @@ footer {
   text-align: left;
   background-color: #9c1e21;
   color: white;
+}
+
+.history {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #9c1e21;
+  color: white;
+}
+
+.history td, tr {
+  border-color: #ddd;
+  padding: 10px;
+}
+
+.history tr:nth-child(even){background-color: #fafad2;}
+.history tr:nth-child(odd){background-color: #fcfca4;}
+.history tr:hover {background-color: #ce3a00;}
+
+.settings {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2% ;
+  background-color: coral;
+  border-radius: 25px;
+}
+
+.mealPage {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2% ;
+  background-color: coral;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.mealPage img {
+  border-color: white;
+  border-radius: 5%;
+}
+
+.reviews {
+  display: table;
+  margin:  -25px auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2% ;
+  background-color: white;
+  color: black;
+  width: 50%;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  opacity: .9;
+}
+
+.reviews h3, p {
+  color: black;
+}
+
+.rateMealForm {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2% ;
+  background-color: #9c1e21;
+  border-radius: 5%;
+  color: #e8e1c7;
+}
+
+.rateMealForm p {
+  color: #e8e1c7;
 }
