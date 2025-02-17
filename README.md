@@ -1,7 +1,5 @@
 # Smart Meal
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe id="js_video_iframe" src="https://jumpshare.com/embed/JiIbDgoxgnaNf9BnQ94a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-</div>
+[#file:SmartMeal.gif](#file:SmartMeal.gif-context)
 
 Welcome to the Smart Meal Site project! This web application helps users find, rate, and manage recipes based on their preferences and pantry ingredients. It offers a simple interface to search for meals, view meal details and ratings, and manage user account settings.
 
