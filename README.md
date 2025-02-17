@@ -37,12 +37,13 @@ Welcome to the Smart Meal Site project! This web application helps users find, r
 - **`schema.sql`** - SQL schema to set up the database tables and structure for the project.
 
 ## How to Run
-
+Locally:
 1. Import the database schema (`schema.sql`) into your MySQL server.
 2. Adjust the database connection parameters in [db_connect.php](db_connect.php).
 3. Deploy the PHP files on a suitable web server (e.g., Apache, Nginx with PHP-FPM).
 4. Navigate to `home.php` to start using the application.
 
+You could also visit: http://cs.gettysburg.edu/~rakoan02/cs360/proj/home.php
 ## Technologies Used
 
 - **PHP:** Backend scripting for server-side logic.
