@@ -40,7 +40,10 @@ h3 {
   color:#e8e1c7
 }
 
-.logo,
+.logo a img {
+  max-width: 200px;
+}
+
 .popular,
 .about,
 .resources,

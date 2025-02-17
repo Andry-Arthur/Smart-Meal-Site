@@ -1,5 +1,5 @@
 <div class="top-bar">
-    <div class="logo"><a href="home.php?op=main">Logo</a></div>
+    <div class="logo"><a href="home.php?op=main"><img src="Logo.png"/></a></div>
     <div class="popular"><a href="home.php?op=popular">Today's Popular</a></div>
     <div class="about"><a href="home.php?op=aboutUs">About Us</a></div>
     <div class="resources"><a href="home.php?op=resource">Resources</a></div>
