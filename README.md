@@ -1,5 +1,5 @@
 # Smart Meal
-[#file:SmartMeal-optimize.gif](#file:SmartMeal.gif-context)
+<img src='./SmartMeal-optimize.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Welcome to the Smart Meal Site project! This web application helps users find, rate, and manage recipes based on their preferences and pantry ingredients. It offers a simple interface to search for meals, view meal details and ratings, and manage user account settings.
 
